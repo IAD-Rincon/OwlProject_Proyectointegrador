@@ -3,7 +3,17 @@ guid: 2043080c489ce514bbd5d8c6dc837e5f
 ModelImporter:
   serializedVersion: 24600
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Calles
+    second: {fileID: 2100000, guid: 7fac56aa2cd7c484d836e45d43aefd0a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lineascalle
+    second: {fileID: 2100000, guid: 095ec36eb4c3447c8b922a1a7f596587, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

@@ -3,7 +3,47 @@ guid: 01d75e9ca32eef64b912da1c483ccdbe
 ModelImporter:
   serializedVersion: 24600
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Camioneta2
+    second: {fileID: 2100000, guid: 3129c67030bf1477cab3b51d6200807d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Camionetya
+    second: {fileID: 2100000, guid: e414252c676204e7ba0afe10a466c3e5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Carro2
+    second: {fileID: 2100000, guid: 21d33a19bad83454dbec0600e247008c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SEMAFORO
+    second: {fileID: 2100000, guid: d8ff3ab0419c34a03b32e65ea31fb53f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert13
+    second: {fileID: 2100000, guid: 22279f94ee0b446c0a55782203dfd9de, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert15
+    second: {fileID: 2100000, guid: 466f8f5078baa40ceb4f4a3d5d605ddd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: llantas
+    second: {fileID: 2100000, guid: 030681f13df7e4e588eefde059a80779, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: openPBR_shader1
+    second: {fileID: 2100000, guid: fce609a89e1fa4fa5a33c660159bf520, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

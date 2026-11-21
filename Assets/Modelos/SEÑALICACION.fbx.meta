@@ -3,7 +3,32 @@ guid: 083275bd214820d409d46393f33187b8
 ModelImporter:
   serializedVersion: 24600
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Letrero
+    second: {fileID: 2100000, guid: 73a72e3bc4539480fbf3b1064706cf90, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blinn1
+    second: {fileID: 2100000, guid: 6c9a389c1532a48efb33018575dad6e6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: letrero2
+    second: {fileID: 2100000, guid: 73051674eef1c4f58a7dd8c1a614b459, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: letrero3
+    second: {fileID: 2100000, guid: 43c9d3b8ce0c6499b8895d3598a98128, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: letrero4
+    second: {fileID: 2100000, guid: 499c9075bd5f74d76972067f8591e7bc, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

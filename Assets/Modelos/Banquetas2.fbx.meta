@@ -3,7 +3,27 @@ guid: bdb12c508c99d4841a12863b9d1b504e
 ModelImporter:
   serializedVersion: 24600
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pasted__banquetas
+    second: {fileID: 2100000, guid: f077914d22ef14bfe9b0794dcdbc556d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pasted__lambert2
+    second: {fileID: 2100000, guid: 7bb782664c24a40c0afadc8ccf3197ba, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pasted__lambert3
+    second: {fileID: 2100000, guid: f7d64b38ec02d46898e964a0c57fd021, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pasted__lambert4
+    second: {fileID: 2100000, guid: 7c909ffcc0fbc41448ed0bcaad9db370, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

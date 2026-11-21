@@ -49,6 +49,20 @@ public class CombiController : MonoBehaviour
     /// <summary>0..1 respecto a la velocidad maxima, util para camara/HUD.</summary>
     public float VelocidadNormalizada => Mathf.Clamp01(Mathf.Abs(velocidadAdelante) / Mathf.Max(0.01f, velocidad));
 
+    /// <summary>Velocidad hacia adelante en m/s (negativa en reversa).</summary>
+    public float VelocidadAdelante => velocidadAdelante;
+
+    /// <summary>Entrada del acelerador: 1 = W, -1 = S, 0 = nada.</summary>
+    public float Avance => avance;
+
+    /// <summary>Freno de mano (Espacio) presionado.</summary>
+    public bool FrenoDeMano => freno;
+
+    /// <summary>True si la combi esta frenando (para las luces de freno).</summary>
+    public bool Frenando => freno
+        || (avance < 0f && velocidadAdelante > 0.5f)
+        || (avance > 0f && velocidadAdelante < -0.5f);
+
     Rigidbody rb;
     float avance;       // 1 = W, -1 = S
     float giro;         // -1 = A, 1 = D
